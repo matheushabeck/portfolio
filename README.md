@@ -30,5 +30,5 @@ git clone https://github.com/matheushabeck/cadastro-produtos-java.git
 ```
 ---
 
-# 💻 Feito com dedicação por [Matheus Habeck](https://github.com/matheushabeck) 
+# 💻 Feito com dedicação por [Matheus H. Habeck](https://github.com/matheushabeck) 
 
