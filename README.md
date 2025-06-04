@@ -13,10 +13,6 @@ Este site apresenta informações sobre mim, meus interesses e minha trajetória
 - `styles/` – Estilos CSS
 - `assets/` – Imagens e ícones utilizados
 
-## 🎯 Objetivo
-
-Desenvolver um portfólio funcional, visualmente agradável e com código organizado, enquanto evoluo no estudo das tecnologias web.
-
 ## 📌 Tecnologias utilizadas
 
 - HTML5
