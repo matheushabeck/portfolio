@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #0d2cdac9;
+
+    --fonte-primaria: font-family: "Krona One", sans-serif;
+    --fonte-secundaria: font-family: "Nunito", sans-serif; 
+}
+
+* {
+    margin: 0; /* Remove a margem padrao */
+    padding: 0; /* Remove o preenchimento padrao */
+}
+
+body {
+    min-height: 100vh; /* Define a altura como 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria); 
+    margin: 0%;
+}
+
+.a {
+    color: rgb(8, 250, 49); 
+}
+
+.b {
+    color: rgba(3, 195, 253, 0.801); 
+}
+
+.c {
+    color: hsl(49, 100%, 47%); 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.cabecalho {
+    padding: 2% 0;
+    background-color: rgba(13, 44, 218, 0.25);
+    box-shadow: 0 2px 8px #0d2cda99;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.escrita-cabecalho {
+    font-family: "Nunito", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color:var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.apresentacao {
+    max-width: 1200px;
+    flex-grow: 1;
+    margin: 7% auto; /* 1º de cima e de baixo, 2º dos lados */
+    display: flex; /* alinhar */
+    align-items: center; /* centraliza o texto com a imgem, end centraliza a partir de baixo */
+    justify-content: space-between; /* espaço para lado */
+    padding: 0%;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.apresentacao_conteudo {
+    flex: 1 1 400px;
+    width: 615px; /* largura */
+    display: flex; /* alinha */
+    flex-direction: column; /* Coloca os itens um embaixo do outro */
+    gap: 50px; /* Espaço de um pra outro */
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 43px; 
+    font-family: "Krona One", sans-serif; 
+}
+
+.apresentacao_conteudo_subtitulo {
+    font-size: 28px; 
+    font-family: "Krona One", sans-serif; 
+}
+
+.bio {
+    font-size: 21px; 
+    font-family: "Nunito", sans-serif; 
+    line-height: 1.6;
+    font-optical-sizing: auto; 
+    font-weight: 340; /* negrito */
+    font-style: normal; 
+    text-align: justify; /* alinhar texto */
+}
+
+.tit-link {
+    font-family: "Nunito", sans-serif;
+    font-size: 25px; 
+}
+
+.link {
+    display: flex; /* alinha */
+    flex-direction: column;
+    justify-content: space-between; /* espaça igual de lado */
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo-link {
+    width: 250px; /* Largura do botão */
+    border: 3px solid var(--cor-terciaria);
+    border-radius: 20px;
+    font-size: 25px; 
+    font-weight: 400; 
+    padding: 8px 0; /* conteudo acima/abaixo do texto */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #f6f6f6;
+    font-family: "Krona One", sans-serif; 
+    display: flex; /* alinha */
+    justify-content: center; /* icone pro centro */
+    align-items: center; /* texto pro centro */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    gap: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.conteudo-link:hover {
+    background-color: #272727;
+}
+
+.img-me {
+    flex: 1 1 300px;
+    max-width: 478px;
+    width: 478px; /* Largura da imagem */
+    border-radius: 12px; /* Borda levemente arredondada */
+    box-shadow: 0 0 12px #00BFFF66;
+    object-fit: cover;
+}
+
+.linkedin-icone {
+    width: 50px; /* Largura do ícone */
+    height: auto; /* Altura ajustada automaticamente */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.github-icone {
+    width: 50px; /* Largura do ícone */
+    height: auto; /* Altura ajustada automaticamente */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.rodape {
+    color: white;
+    background-color: rgba(13, 44, 218, 0.25);
+    padding: 22px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px #0d2cda99;
+}
