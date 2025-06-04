@@ -75,7 +75,7 @@ body {
 }
 
 .img-me {
-    width: 478px;
+    width: 40%;
     border-radius: 12px;
     box-shadow: 0 0 12px #00BFFF66;
     object-fit: cover;

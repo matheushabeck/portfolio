@@ -77,7 +77,7 @@ body {
 
 .apresentacao_conteudo {
     flex: 1 1 400px;
-    width: 615px; /* largura */
+    width: 50%; /* largura */
     display: flex; /* alinha */
     flex-direction: column; /* Coloca os itens um embaixo do outro */
     gap: 50px; /* Espaço de um pra outro */
@@ -144,9 +144,7 @@ body {
 }
 
 .img-me {
-    flex: 1 1 300px;
-    max-width: 478px;
-    width: 478px; /* Largura da imagem */
+    width: 40%;
     border-radius: 12px; /* Borda levemente arredondada */
     box-shadow: 0 0 12px #00BFFF66;
     object-fit: cover;
