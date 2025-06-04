@@ -13,12 +13,22 @@ Este site apresenta informações sobre mim, meus interesses e minha trajetória
 - `styles/` – Estilos CSS
 - `assets/` – Imagens e ícones utilizados
 
+## 🎯 Objetivo
+
+Desenvolver um portfólio funcional, visualmente agradável e com código organizado, enquanto evoluo no estudo das tecnologias web.
+
 ## 📌 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- Google Fonts
+- ![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg) HTML5  
+- ![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg) CSS3  
+- ![Google Fonts](https://fonts.google.com/static/images/google-fonts-logo.svg) Google Fonts
 
+## 📦 Como usar
+
+```bash
+git clone https://github.com/matheushabeck/cadastro-produtos-java.git
+```
 ---
 
-Feito com dedicação por [Matheus Habeck](https://github.com/matheushabeck) 💻
+# 💻 Feito com dedicação por [Matheus Habeck](https://github.com/matheushabeck) 
+
