@@ -6,8 +6,8 @@
     --cor-secundaria: white;
     --cor-terciaria: #0d2cdac9;
 
-    --fonte-primaria: font-family: "Krona One", sans-serif;
-    --fonte-secundaria: font-family: "Nunito", sans-serif; 
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Nunito", sans-serif; 
 }
 
 * {
@@ -16,13 +16,9 @@
 }
 
 body {
-    min-height: 100vh; /* Define a altura como 100% da altura da tela */
-    display: flex;
-    flex-direction: column;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria); 
-    margin: 0%;
 }
 
 .a {
@@ -35,12 +31,6 @@ body {
 
 .c {
     color: hsl(49, 100%, 47%); 
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .cabecalho {
@@ -64,19 +54,14 @@ body {
 }
 
 .apresentacao {
-    max-width: 1200px;
-    flex-grow: 1;
-    margin: 7% auto; /* 1º de cima e de baixo, 2º dos lados */
+    padding: 5% 15%;
     display: flex; /* alinhar */
     align-items: center; /* centraliza o texto com a imgem, end centraliza a partir de baixo */
     justify-content: space-between; /* espaço para lado */
-    padding: 0%;
     gap: 60px;
-    flex-wrap: wrap;
 }
 
 .apresentacao_conteudo {
-    flex: 1 1 400px;
     width: 50%; /* largura */
     display: flex; /* alinha */
     flex-direction: column; /* Coloca os itens um embaixo do outro */
@@ -84,21 +69,21 @@ body {
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 2.69rem;
+    font-size: 2.94rem;
     font-family: "Krona One", sans-serif; 
 }
 
 .apresentacao_conteudo_subtitulo {
-    font-size: 1.75rem; 
+    font-size: 1.91rem; 
     font-family: "Krona One", sans-serif; 
 }
 
 .bio {
     font-size: 1.31rem; 
-    font-family: "Nunito", sans-serif; 
     line-height: 1.6;
-    font-optical-sizing: auto; 
     font-weight: 340; /* negrito */
+    font-family: "Nunito", sans-serif; 
+    font-optical-sizing: auto; 
     font-style: normal; 
     text-align: justify; /* alinhar texto */
 }
@@ -117,26 +102,26 @@ body {
 }
 
 .conteudo-link {
-    width: 250px; /* Largura do botão */
-    border: 3px solid var(--cor-terciaria);
-    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 16rem;
+    border-radius: 10px;
     font-size: 1.56rem; 
     font-weight: 400; 
-    padding: 8px 0; /* conteudo acima/abaixo do texto */
+    padding: 1rem 1rem; /* conteudo acima/abaixo do texto */
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #f6f6f6;
-    font-family: "Krona One", sans-serif; 
-    display: flex; /* alinha */
-    justify-content: center; /* icone pro centro */
-    align-items: center; /* texto pro centro */
-    text-align: center; /* Centraliza o texto dentro do botão */
-    gap: 8px; /* Espaço entre o ícone e o texto */
+    font-family: "Krona One", sans-serif;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 25px; /* gap entre os icones */
 }
 
 .conteudo-link:hover {
@@ -171,4 +156,17 @@ body {
     font-size: 1.38rem;
     font-weight: 500;
     box-shadow: 0 2px 8px #0d2cda99;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    
 }

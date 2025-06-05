@@ -7,13 +7,9 @@
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     box-sizing: border-box;
     background-color: black;
     color: white;
-    margin: 0%;
 }
 
 .cabecalho {
@@ -37,27 +33,21 @@ body {
 }
 
 .apresentacao {
-    max-width: 1200px;
-    flex-grow: 1;
-    margin: 7% auto;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0%;
-    gap: 60px;
-    flex-wrap: wrap;
 }
 
 .apresentacao_conteudo {
-    flex: 1 1 400px;
-    width: 615px;
+    width: 53%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 19px;
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 2.56rem;
+    font-size: 2.80rem;
     color: hsl(49, 100%, 47%);
     font-family: "Krona One", sans-serif; 
     display: flex;
@@ -67,9 +57,9 @@ body {
 .bio {
     font-size: 1.31rem;
     line-height: 1.6;
+    font-weight: 340;
     font-family: "Nunito", sans-serif; 
     font-optical-sizing: auto;
-    font-weight: 340;
     font-style: normal;
     text-align: justify;
 }
@@ -90,6 +80,18 @@ body {
     font-size: 1.38rem;
     font-weight: 500;
     box-shadow: 0 2px 8px #0d2cda99;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }  
 }
 
 .a {
@@ -119,3 +121,4 @@ body {
 .g {
     color: #00FF9F;
 }
+
