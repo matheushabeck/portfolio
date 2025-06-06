@@ -69,11 +69,13 @@ body {
 }
 
 .apresentacao_conteudo_titulo {
+    text-align: center;
     font-size: 2.94rem;
     font-family: "Krona One", sans-serif; 
 }
 
 .apresentacao_conteudo_subtitulo {
+    text-align: center;
     font-size: 1.91rem; 
     font-family: "Krona One", sans-serif; 
 }
@@ -167,6 +169,9 @@ body {
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
     }
-    
+    .apresentacao_conteudo {
+        width: auto;
+    }
 }
